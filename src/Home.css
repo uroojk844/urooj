@@ -1,0 +1,36 @@
+.container{
+    background-image: url("./img/my.png");
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+    color: white;
+    padding: 240px 0;
+}
+
+.container .name{
+    font-size: 80px;
+}
+
+.container .description{
+    font-size: 22px;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        height: 120px;
+    }
+
+    .container .name{
+        font-size: 62px;
+    }
+
+    .container .description {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    .container {
+        height: 545px;
+    }
+}

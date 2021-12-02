@@ -1,0 +1,30 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2 ,auto);
+    gap: 8px;
+    margin-bottom: 32px;
+}   
+
+img{
+    width: 100%;
+}
+
+img[data-scroll="in"]{
+    animation: zoom 0.75s linear;
+}
+
+@keyframes zoom{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .gallery{
+        grid-template-columns: auto;
+        margin-bottom: 76px;
+    }
+}

@@ -1,0 +1,24 @@
+.about_container {
+    color: #ccc;
+    background-color: black;
+    display: grid;
+    padding: 64px 10% 0 10%;
+}
+
+.heading{
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding: 0 16px 8px 0;
+    border-bottom: 3px solid #ccc;
+    place-self: start;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.about_container .about{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: #888;
+    font-size: 17px;
+    margin-bottom: 32px;
+}
